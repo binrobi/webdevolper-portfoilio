@@ -1,113 +1,149 @@
-body{
+body {
     font-family: 'Lato', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Tiro Bangla', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Tiro Bangla', serif;
 }
 
 
 
-nav{
-align-items: center;
- justify-content: space-between;
+nav {
+    align-items: center;
+    justify-content: space-between;
     display: flex;
-    margin:0 200px ;
+    margin: 0 200px;
 }
-.nav-tittle{
-    font-size: 45px ;
+
+.nav-tittle {
+    font-size: 45px;
     font-weight: 800;
 }
-span{
+
+span {
     color: orange;
-    
+
 }
-nav > ul {
+
+nav>ul {
     display: flex;
     align-items: center;
-    
+
     /* padding-right: 20px; */
 }
+
 nav li {
-    list-style: none ;
-    margin-right: 20px ;
+    list-style: none;
+    margin-right: 20px;
 }
+
 nav a {
-    text-decoration:  none;
-    color:  #474747;
+    text-decoration: none;
+    color: #474747;
 }
-.primary-batton{
-   background-color: orange;
-border-radius: 5px;
-border: 0;
-padding:18px  36px;
-color: #fff;
-font-size: 20px ;
-font-weight: 700;
+
+.primary-batton {
+    background-color: orange;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 36px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
 }
-.header{
+
+.header {
     background-color: #fff8f3;
     background-image: url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 0px  150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
-justify-content: space-between;
+    justify-content: space-between;
 }
-.banner-content{
-max-width: 500px;
-}
-  .banner .profile-pic{
-width: 500px;
 
-   } 
-   .banner-greeting{
-    font-size: 45px ;
-    color:  #474747;
-    margin:  0 ;
-   }
-.banner-tittle{
+.banner-content {
+    max-width: 500px;
+}
+
+.banner .profile-pic {
+    width: 500px;
+
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin: 0;
+}
+
+.banner-tittle {
     font-size: 85px;
     font-weight: 700;
-    margin-top: 5px ;
+    margin-top: 5px;
     margin-bottom: 20px;
 }
+
 /* main section  */
 
-.about{
+.about {
     padding: 130px;
-    border-radius: 10px ;
+    border-radius: 10px;
     background-color: #fff8f3;
     margin: 130px 0;
 }
-.section-tittle{
+
+.section-tittle {
     color: #474747;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
 }
-.section-description{
+
+.section-description {
     color: #757575;
     text-align: center;
     font-size: 18px;
 }
 
-main{
-    max-width: 1140px ;
-    margin:  0 auto;
+main {
+    max-width: 1140px;
+    margin: 0 auto;
 }
-.about-info-container{
+
+main section {
+    margin-top: 130px;
+}
+
+.about-info-container {
     display: flex;
     justify-content: space-between;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
-#what-i-do-description{
-    padding: 30px 150px ;
+
+#what-i-do-description {
+    padding: 30px 150px;
 }
-.skill-container{
+
+.skill-container {
     display: flex;
-    justify-content: space-around;
+    gap: 24px;
+
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0px 6px 10px 0px;
+}
+.resume-column-tittle{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
